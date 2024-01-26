@@ -131,3 +131,11 @@ img {
     /* width: 900px; */
     height: 400px;
 }
+
+ /* for video*/
+ .vid {
+    width: 1060px;
+    height: auto;
+    top: 60px;
+    left: 0px;
+ }
