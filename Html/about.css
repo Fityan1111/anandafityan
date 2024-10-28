@@ -1,0 +1,98 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    height: 100vh;
+    background-color: #d8d8d8;
+    display: flex;
+}
+
+/*------------------------------------------<nav>------------------------------------------*/
+
+nav {
+    background-color:rgb(255, 255, 255);
+    width: 100vw;
+    height: 9vh;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 6rem;
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    color: #a50c0c;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #a50c0c;
+}
+
+nav aside img {
+    width: 60px;
+    padding-bottom: 7rem;
+
+}
+
+main .content .bg img{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+/*------------------------------------------<article>------------------------------------------*/
+main {
+    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
+    margin-inline: auto;
+    padding: 5rem 4rem;
+    padding-bottom: 0;
+  
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+main .content{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+main .content article p{
+    display: flex;
+    width: 500px;
+    height: 150px;
+
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content article h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30;
+    margin-bottom: 0;
+}
